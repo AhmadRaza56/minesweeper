@@ -6,6 +6,7 @@ namespace minesweeper
     {
         static void Main(string[] args)
         {
+			//creating grid size
 			 Console.WriteLine("Please enter number of rows");
 			 int Horizontal = Int32.Parse(Console.ReadLine()); 
 			 Console.WriteLine("Please enter number of columns");
@@ -27,10 +28,10 @@ namespace minesweeper
 				}
 				Console.WriteLine();
 			 }
-
+			//end grid cretions size
 		}
 
-    }
+	}
 }
 
 
