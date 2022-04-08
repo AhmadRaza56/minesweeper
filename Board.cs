@@ -66,5 +66,30 @@ namespace MineSweeper
 				}
 			}
 		}
+
+		public string getdifficulty()
+        {
+			return this.size;
+        }
+		public void setdifficulty(string difficulty)
+        {
+			this.size = difficulty;
+        }
+		public int getwidth()
+		{
+			return this.horizontal;
+		}
+		public void setwidth(int width)
+		{
+			this.horizontal = width;
+		}
+		public int getheight()
+		{
+			return this.vertical;
+		}
+		public void setheight(int height)
+		{
+			this.vertical = height;
+		}
 	}
 }
