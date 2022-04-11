@@ -11,85 +11,90 @@ namespace MineSweeper
 		int horizontal;
 		int vertical;
 		string size;
-		
 
 		public Board(string difficulty, int width, int height)
-        {
+		{
 			this.vertical = height;
 			this.horizontal = width;
 			this.size = difficulty;
 
-            if (difficulty.ToLower() == "easy")
-            {
-				height = 10;
-				width = 10;
-				int[,] grid = new int[height, width];
-				for (int y = 0; y < width; ++y)
+			
+				if (difficulty.ToLower() == "easy")
 				{
-					//run a nested loop
-					for (int x = 0; x < height; ++x)//loop through an inner array
+					height = 10;
+					width = 10;
+					int[,] grid = new int[height, width];
+					for (int y = 0; y < width; ++y)
 					{
-						grid[x, y] = 0;
-						Console.Write(grid[x, y] + " ");
+						//run a nested loop
+						for (int x = 0; x < height; ++x)//loop through an inner array
+						{
+							grid[x, y] = 0;
+							Console.Write(grid[x, y] + " ");
+						}
+						Console.WriteLine();
 					}
-					Console.WriteLine();
-				}
-			}
+				    Console.ReadLine();
+
+		     	}
 			else if (difficulty.ToLower() == "medium")
-			{
-				height = 16;
-				width = 16;
-				int[,] grid = new int[height, width];
-				for (int y = 0; y < width; ++y)
 				{
-					for (int x = 0; x < height; ++x)
+					height = 16;
+					width = 16;
+					int[,] grid = new int[height, width];
+					for (int y = 0; y < width; ++y)
 					{
-						grid[x, y] = 0;
-						Console.Write(grid[x, y] + " ");
+						for (int x = 0; x < height; ++x)
+						{
+							grid[x, y] = 0;
+							Console.Write(grid[x, y] + " ");
+						}
+						Console.WriteLine();
 					}
-					Console.WriteLine();
+				    Console.ReadLine();
 				}
-			}
-			else if (difficulty.ToLower() == "hard")
-			{
-				height = 20;
-				width = 20;
-				int[,] grid = new int[height, width];
-				for (int y = 0; y < width; ++y)
+				else if (difficulty.ToLower() == "hard")
 				{
-					for (int x = 0; x < height; ++x)
+					height = 20;
+					width = 20;
+					int[,] grid = new int[height, width];
+					for (int y = 0; y < width; ++y)
 					{
-						grid[x, y] = 0;
-						Console.Write(grid[x, y] + " ");
+						for (int x = 0; x < height; ++x)
+						{
+							grid[x, y] = 0;
+							Console.Write(grid[x, y] + " ");
+						}
+						Console.WriteLine();
 					}
-					Console.WriteLine();
-				}
-			}
-		}
+			    	Console.ReadLine();
 
-		public string getdifficulty()
-        {
-			return this.size;
-        }
-		public void setdifficulty(string difficulty)
-        {
-			this.size = difficulty;
-        }
-		public int getwidth()
-		{
-			return this.horizontal;
+			    }
+
 		}
-		public void setwidth(int width)
-		{
-			this.horizontal = width;
-		}
-		public int getheight()
-		{
-			return this.vertical;
-		}
-		public void setheight(int height)
-		{
-			this.vertical = height;
-		}
-	}
+			public string getdifficulty()
+			{
+				return this.size;
+			}
+			public void setdifficulty(string difficulty)
+			{
+				this.size = difficulty;
+			}
+			public int getwidth()
+			{
+				return this.horizontal;
+			}
+			public void setwidth(int width)
+			{
+				this.horizontal = width;
+			}
+			public int getheight()
+			{
+				return this.vertical;
+			}
+			public void setheight(int height)
+			{
+				this.vertical = height;
+			}
+	}	
 }

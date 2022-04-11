@@ -6,11 +6,11 @@ namespace MineSweeper
 	{
 		static void Main(string[] args)
 		{
-			Board board = newe 
+			
 			Console.WriteLine("Welcome to Minesweeper!");
-			//creating grid size
 			Console.WriteLine("Please choose the difficulty. Easy, Medium or Hard");
-			Boa Console.ReadLine();
+			Board board = new Board(Console.ReadLine(), 0, 0);
+			//creating grid size
 		}
 	}
 }
