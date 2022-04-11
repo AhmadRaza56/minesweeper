@@ -1,0 +1,16 @@
+C:\Users\razaa\source\repos\minesweeper\obj\Debug\net5.0\minesweeper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\razaa\source\repos\minesweeper\obj\Debug\net5.0\minesweeper.AssemblyInfoInputs.cache
+C:\Users\razaa\source\repos\minesweeper\obj\Debug\net5.0\minesweeper.AssemblyInfo.cs
+C:\Users\razaa\source\repos\minesweeper\obj\Debug\net5.0\minesweeper.csproj.CoreCompileInputs.cache
+C:\Users\razaa\source\repos\minesweeper\bin\Debug\net5.0\minesweeper.exe
+C:\Users\razaa\source\repos\minesweeper\bin\Debug\net5.0\minesweeper.deps.json
+C:\Users\razaa\source\repos\minesweeper\bin\Debug\net5.0\minesweeper.runtimeconfig.json
+C:\Users\razaa\source\repos\minesweeper\bin\Debug\net5.0\minesweeper.runtimeconfig.dev.json
+C:\Users\razaa\source\repos\minesweeper\bin\Debug\net5.0\minesweeper.dll
+C:\Users\razaa\source\repos\minesweeper\bin\Debug\net5.0\ref\minesweeper.dll
+C:\Users\razaa\source\repos\minesweeper\bin\Debug\net5.0\minesweeper.pdb
+C:\Users\razaa\source\repos\minesweeper\obj\Debug\net5.0\minesweeper.dll
+C:\Users\razaa\source\repos\minesweeper\obj\Debug\net5.0\ref\minesweeper.dll
+C:\Users\razaa\source\repos\minesweeper\obj\Debug\net5.0\minesweeper.pdb
+C:\Users\razaa\source\repos\minesweeper\obj\Debug\net5.0\minesweeper.genruntimeconfig.cache
+C:\Users\razaa\source\repos\minesweeper\obj\Debug\net5.0\minesweeper.csproj.AssemblyReference.cache
