@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MineSweeper
 {
-    class Tiles
+    internal class Tiles
     {
         bool isMine;
         bool isSafe;
@@ -14,7 +14,7 @@ namespace MineSweeper
 
         public Tiles()
         {
-
+          
         }
     }
 }
