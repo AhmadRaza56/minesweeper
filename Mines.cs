@@ -10,10 +10,11 @@ namespace MineSweeper
     {
 		//mines
 		//compare mine with row and column
-		int mines = 0;
+		int mines;
 
-		public Mines()
+		public Mines(int numberOfMines)
         {
+            this.mines = numberOfMines;
             Board board = new Board(Console.ReadLine(),0,0);
             if (board.getdifficulty().Contains("easy"))
             {
@@ -43,8 +44,14 @@ namespace MineSweeper
 
                 }
             }
-
         }
-		
+        public int getnumberOfMines()
+        {
+            return this.mines;
+        }
+        public void setnumberOfMines(int numberOfMines)
+        {
+            this.mines = numberOfMines;
+        }
     }
 }
