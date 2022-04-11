@@ -21,6 +21,7 @@ namespace MineSweeper
                 Random rmd = new Random();
                 while (mines == 5)
                 {
+
                     int minelocation1 = rmd.Next(0,11);
                     ++mines;
                 }
