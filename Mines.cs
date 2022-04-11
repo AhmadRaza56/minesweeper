@@ -22,10 +22,7 @@ namespace MineSweeper
                 while (mines == 5)
                 {
                     int minelocation1 = rmd.Next(0,11);
-                    int minelocation2 = rmd.Next(0, 11);
-                    int minelocation3 = rmd.Next(0, 11);
-                    int minelocation4 = rmd.Next(0, 11);
-                    int minelocation5 = rmd.Next(0, 11);
+                    ++mines;
                 }
             }
             else if (board.getdifficulty().Contains("medium"))
