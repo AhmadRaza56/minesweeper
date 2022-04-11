@@ -31,7 +31,9 @@ namespace MineSweeper
                 Random rmd = new Random();
                 while (mines == 10)
                 {
-
+                    int position = rmd.Next(0, 11);
+                    int[] minelocation2 = new int[position];
+                    ++mines;
                 }
             }
             else if (board.getdifficulty().Contains("hard"))
@@ -39,7 +41,9 @@ namespace MineSweeper
                 Random rmd = new Random();
                 while (mines == 20)
                 {
-
+                    int position = rmd.Next(0, 11);
+                    int[] minelocation3 = new int[position];
+                    ++mines;
                 }
             }
         }
