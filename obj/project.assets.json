@@ -1,11 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net6.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net6.0": []
   },
   "packageFolders": {
     "C:\\Users\\razaa\\.nuget\\packages\\": {},
@@ -15,9 +15,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\razaa\\source\\repos\\minesweeper\\minesweeper.csproj",
-      "projectName": "minesweeper",
-      "projectPath": "C:\\Users\\razaa\\source\\repos\\minesweeper\\minesweeper.csproj",
+      "projectUniqueName": "C:\\Users\\razaa\\source\\repos\\minesweeper\\MineSweeper.csproj",
+      "projectName": "MineSweeper",
+      "projectPath": "C:\\Users\\razaa\\source\\repos\\minesweeper\\MineSweeper.csproj",
       "packagesPath": "C:\\Users\\razaa\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\razaa\\source\\repos\\minesweeper\\obj\\",
       "projectStyle": "PackageReference",
@@ -32,15 +32,15 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {}
         }
       },
@@ -51,8 +51,8 @@
       }
     },
     "frameworks": {
-      "net5.0": {
-        "targetAlias": "net5.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "imports": [
           "net461",
           "net462",
